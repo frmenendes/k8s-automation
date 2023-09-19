@@ -41,6 +41,9 @@ chmod +x <NOME_DO_SCRIPT>.sh
 - Instala e verifica o funcionamento do Metrics Server, cert-manager, External-DNS, AWS Load Balancer Controller, kube-state-metrics e Prometheus.
 - O script também contém funcionalidades para instalar o Grafana e conceder ao usuário root da AWS acesso administrativo ao cluster, mas essas partes estão comentadas por padrão.
 
+# Informação Importante
+
+O cluster precisa de permissão no Route53 para criar os registros. Após a criação do cluster com o eksctl, não esqueça de conceder acessos a role do nodegroup e do cluster.
 # Troubleshooting
 
 Se ocorrer um erro durante a execução, o script imprimirá "Erro detectado durante a operação!" e encerrará a execução. Em tal caso, verifique a saída para obter detalhes sobre a causa do erro e ajuste o script ou o ambiente conforme necessário.
