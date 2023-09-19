@@ -36,10 +36,10 @@ chmod +x <NOME_DO_SCRIPT>.sh
 
 # Funcionalidades
 
-> Verifica se as ferramentas necessárias estão instaladas.
-> Autentica com a AWS e configura a AWS CLI.
-> Instala e verifica o funcionamento do Metrics Server, cert-manager, External-DNS, AWS Load Balancer Controller, kube-state-metrics e Prometheus.
-> O script também contém funcionalidades para instalar o Grafana e conceder ao usuário root da AWS acesso administrativo ao cluster, mas essas partes estão comentadas por padrão.
+- Verifica se as ferramentas necessárias estão instaladas.
+- Autentica com a AWS e configura a AWS CLI.
+- Instala e verifica o funcionamento do Metrics Server, cert-manager, External-DNS, AWS Load Balancer Controller, kube-state-metrics e Prometheus.
+- O script também contém funcionalidades para instalar o Grafana e conceder ao usuário root da AWS acesso administrativo ao cluster, mas essas partes estão comentadas por padrão.
 
 # Troubleshooting
 
