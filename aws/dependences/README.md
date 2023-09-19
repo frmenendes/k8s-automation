@@ -4,10 +4,10 @@ Este script automatiza o processo de configuração e instalação de várias fe
 
 # Ferramentas necessárias
 
-> aws: AWS CLI para interação com a Amazon Web Services.
-> helm: Um pacote Kubernetes para gerenciar aplicações.
-> kubectl: Ferramenta CLI para interagir com o Kubernetes.
-> eksctl: Uma ferramenta CLI para criar e gerenciar clusters no Amazon EKS.
+- aws: AWS CLI para interação com a Amazon Web Services.
+- helm: Um pacote Kubernetes para gerenciar aplicações.
+- kubectl: Ferramenta CLI para interagir com o Kubernetes.
+- eksctl: Uma ferramenta CLI para criar e gerenciar clusters no Amazon EKS.
 
 # Dependências
 
