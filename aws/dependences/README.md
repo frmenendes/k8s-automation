@@ -11,8 +11,8 @@ Este script automatiza o processo de configuração e instalação de várias fe
 
 # Dependências
 
-> Credenciais da AWS configuradas (geralmente definidas em ~/.aws/credentials).
-> Um cluster EKS já criado.
+- Credenciais da AWS configuradas (geralmente definidas em ~/.aws/credentials).
+- Um cluster EKS já criado.
 
 # Como usar
 
